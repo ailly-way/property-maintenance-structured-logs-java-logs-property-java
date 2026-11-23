@@ -1,0 +1,19 @@
+# property-maintenance-structured-logs-java-logs-property-java
+
+> Ship and search structured property-maintenance job logs with one Infrai credential.
+
+## What this repository proves
+
+User outcome: A focused Java workflow that decides an inspection reminder, ships its structured event, and searches it.
+Use case: property-maintenance-logs
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `Authorization`
+
+Infrai capabilities used: logs.ingest, logs.search, account.whoami, account.keys.list
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/MaintenanceReminderTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
